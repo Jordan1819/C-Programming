@@ -100,7 +100,7 @@ void operand_prompt(int operand_count, int operand_array[], char operator){
 					//specific error message when the first
 					//integer entered for division is 0, 
 					//so I went with this
-					printf("First number can't be zero\n");
+					printf("Divide by zero error\n");
 				} else {
 					operand_array[i] = input;
 					break;
